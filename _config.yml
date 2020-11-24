@@ -1,1 +1,6 @@
 theme: jekyll-theme-minimal
+title: Benjamin Ricaud
+logo: /assets/img/bricaud.jpg
+description: Researcher @ EPFL. Graphs, data science, machine learning.
+show_downloads: true
+google_analytics:
