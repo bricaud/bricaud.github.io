@@ -3,11 +3,11 @@
 I am a researcher at EPFL, Lausanne Switzerland. My research is at the intersection between Data Science, Network Science, Machine Learning and Signal Processing. 
 
 My main research topics are:
- * [Graph signal processing](#Graph-signal-processing)
- * [Exploration of large graphs](#Exploration-of-large-graphs)
- * [Graphs in biology](#Graphs-in-biology)
- * [Machine learning in Audio, explainable AI](#Machine-learning-in-Audio,-explainable-AI)
- * [Sparsity in data](#Sparsity-in-data)
+ * [Graph signal processing](#graph-signal-processing)
+ * [Exploration of large graphs](#exploration-of-large-graphs)
+ * [Graphs in biology](#graphs-in-biology)
+ * [Machine learning in audio and explainable AI](#machine-learning-in-audio-and-explainable-ai)
+ * [Sparsity in data](#sparsity-in-data)
 
 
 ## Graph signal processing
@@ -41,11 +41,11 @@ With the increasing size of networks, methods based on linear algebra, such as g
 ![EEG network scheme]({{site.baseurl}}/assets/img/brainfigure.png)
 I have worked on medical applications of graph signal processing, to understand the dynamical processes inside the brain (and its network of interconnected brain regions). In [BIO2] the network was the network of EEG sensors where their signals evolve over time as the patients are asked to complete a task. We showed that combining the temporal signals with a sensor network structure could reveal hidden correlations and help distinguish signs of early Alzheimer desease. In [BIO1] the combination of the graph of connected brain regions with the dynamic activity of these regions recorded from MRI scans improved the extraction of activity patterns such as the resting state network as well as new patterns.
 
-[BIO1] Alessandra Griffa, Benjamin Ricaud, Kirell Benzi, Xavier Bresson, Alessandro Daducci, Pierre Vandergheynst, Jean-Philippe Thiran, and Patric Hagmann. Transient networks of spatio-temporal connectivity map communication pathways in brain functional systems. NeuroImage, 155:490–502, 2017.
+[[BIO1](https://www.sciencedirect.com/science/article/abs/pii/S105381191730304X)] Alessandra Griffa, Benjamin Ricaud, Kirell Benzi, Xavier Bresson, Alessandro Daducci, Pierre Vandergheynst, Jean-Philippe Thiran, and Patric Hagmann. Transient networks of spatio-temporal connectivity map communication pathways in brain functional systems. NeuroImage, 155:490–502, 2017.
 
-[BIO2] Keith Smith, Benjamin Ricaud, Nauman Shahid, Stephen Rhodes, John M Starr, Augustin Ibáñez, Mario A Parra, Javier Escudero, and Pierre Vandergheynst. Locating temporal functional dynamics of visual short-term memory binding using graph modular dirichlet energy. Nature Scientific Reports, 7:42013, 2017.
+[[BIO2](https://www.nature.com/articles/srep42013)] Keith Smith, Benjamin Ricaud, Nauman Shahid, Stephen Rhodes, John M Starr, Augustin Ibáñez, Mario A Parra, Javier Escudero, and Pierre Vandergheynst. Locating temporal functional dynamics of visual short-term memory binding using graph modular dirichlet energy. Nature Scientific Reports, 7:42013, 2017.
 
-## Machine learning in Audio, explainable AI
+## Machine learning in audio and explainable AI
 I used to work on audio applications before coming to EPFL, as an aplication to signal processing. I studied sparse representation of audio and acoustic signals (time-frequency analysis). I recently came back to this topic with machine learning, helped by some signal processing expertise. We have designed learnable filter banks inside a neural net layer [ML2]. These are convolutional layers with parameterized kernels, where the parameters are the cut-off frequencies and shape of band pass filters. These kernels can be interpreted and the learning is faster as there a less weights to learn.
 In a collaboration with Logitech, we investigate state-of-the-art AI in audio signal processing (speech and music) and focus on reducing the size of the deep networks in order to make them faster to train and more convenient for real-world audio applications [ML1,ML3]. 
 
