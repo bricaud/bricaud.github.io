@@ -5,6 +5,7 @@ I am a researcher at EPFL, Lausanne Switzerland. My research is at the intersect
 I work on several themes which I describe below. 
 
 ## Graph signal processing
+![Graph Signal Processing]({{site.baseurl}}/assets/img/GSPimage.png)
 Since I joined the LTS2 lab at EPFL in 2012, I have been working on graph structured data. The main idea is to design new methods enabling the analysis of phenomena occurring within networks. With the explosion of data, these structures arise in many different fields of application (engineering, biology, physics...). In graph signal processing and graph machine learning,  we distinguish two sources of information we combine together: 1) the graph and 2) the data associated to the graph nodes or edges. The graph is the structure or space and the data are the signal or feature vectors. Our first effort was to show how standard data analysis methods in 1D or 2D could be generalized to this exotic graph space. We showed the generalization of key signal processing methods and concepts to the graph setting such as the Fourier transform, the concept of frequency and sparse representation [GSP1], the windowed Fourier transform [GSP2], dynamic analysis on graphs [GSP3] and the concept of uncertainty [GSP4]. I wrote recently a review paper about these methods [GSP5]. 
 
 [[GSP1](https://documents.epfl.ch/users/s/sh/shuman/www/Papers/Conference/Shuman_et_al_SSP_2012.pdf)] David I Shuman, Benjamin Ricaud, and Pierre Vandergheynst. A windowed graph fourier transform. In Statistical Signal Processing Workshop (SSP), 2012 IEEE, pages 133–136. Ieee, 2012.
@@ -31,6 +32,7 @@ With the increasing size of networks, methods based on linear algebra, such as g
 [SP4] Benjamin Ricaud, Nicolas Aspert, and Volodymyr Miz. Spikyball sampling: Exploring large networks via an inhomogeneous filtered diffusion. Algorithms, 13(11):275, 2020.
 
 ## Graphs in biology
+![EEG network scheme]({{site.baseurl}}/assets/img/brainfigure.png)
 I have worked on medical applications of graph signal processing, to understand the dynamical processes inside the brain (and its network of interconnected brain regions). In [BIO2] the network was the network of EEG sensors where their signals evolve over time as the patients are asked to complete a task. We showed that combining the temporal signals with a sensor network structure could reveal hidden correlations and help distinguish signs of early Alzheimer desease. In [BIO1] the combination of the graph of connected brain regions with the dynamic activity of these regions recorded from MRI scans improved the extraction of activity patterns such as the resting state network as well as new patterns.
 
 [BIO1] Alessandra Griffa, Benjamin Ricaud, Kirell Benzi, Xavier Bresson, Alessandro Daducci, Pierre Vandergheynst, Jean-Philippe Thiran, and Patric Hagmann. Transient networks of spatio-temporal connectivity map communication pathways in brain functional systems. NeuroImage, 155:490–502, 2017.
