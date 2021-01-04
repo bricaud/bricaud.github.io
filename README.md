@@ -2,7 +2,13 @@
 
 I am a researcher at EPFL, Lausanne Switzerland. My research is at the intersection between Data Science, Network Science, Machine Learning and Signal Processing. 
 
-I work on several themes which I describe below. 
+My main research topics are:
+ * [Graph signal processing](#Graph-signal-processing)
+ * [Exploration of large graphs](#Exploration-of-large-graphs)
+ * [Graphs in biology](#Graphs-in-biology)
+ * [Machine learning in Audio, explainable AI](#Machine-learning-in-Audio,-explainable-AI)
+ * [Sparsity in data](#Sparsity-in-data)
+
 
 ## Graph signal processing
 ![Graph Signal Processing]({{site.baseurl}}/assets/img/GSPimage.png)
@@ -23,13 +29,13 @@ Since I joined the LTS2 lab at EPFL in 2012, I have been working on graph struct
 ![Large Twitter graph]({{site.baseurl}}/assets/img/higgs_community_small.jpg)
 With the increasing size of networks, methods based on linear algebra, such as graph signal processing, or machine learning may not be as efficient. New approaches are needed, involving scalable processes. We have developed several such approaches. One direction is the analysis of abnormal activity (or peak of activity) in the large network of Wikipedia hyperlinks. The number of visits per hour is recorded for each page by Wikimedia and made freely available. Analyzing the activity inside the network reveals the human curiosity and behavior related to important events and news [W1,W2,W3]. A presentation of the findings is available on a blog post of my co-author [V. Miz](https://miz.space). An emblematic example of large scale network is the social network. I am involved in a project with a Swiss media consortium [IMI](https://www.media-initiative.ch/) to analyze and track controversies and fake news in social networks. In addition to the size of the network, the limited access to the social platform via an API is a challenge. We have proposed an innovative network exploration principle to unlock the exploration of social networks [SP4].
 
-[W1] Miz, V., Ricaud, B., Benzi, K., & Vandergheynst, P. (2019, May). Anomaly detection in the dynamics of web and social networks using associative memory. In The World Wide Web Conference (pp. 1290-1299).
+[[W1](https://dl.acm.org/doi/pdf/10.1145/3308558.3313541)] Miz, V., Ricaud, B., Benzi, K., & Vandergheynst, P. (2019, May). Anomaly detection in the dynamics of web and social networks using associative memory. In The World Wide Web Conference (pp. 1290-1299).
 
-[W2] Aspert, N., Miz, V., Ricaud, B., & Vandergheynst, P. (2019, May). A graph-structured dataset for Wikipedia research. In Companion Proceedings of The 2019 World Wide Web Conference (pp. 1188-1193).
+[[W2](https://dl.acm.org/doi/pdf/10.1145/3308560.3316757)] Aspert, N., Miz, V., Ricaud, B., & Vandergheynst, P. (2019, May). A graph-structured dataset for Wikipedia research. In Companion Proceedings of The 2019 World Wide Web Conference (pp. 1188-1193).
 
-[W3] Miz, V., Hanna, J., Aspert, N., Ricaud, B., & Vandergheynst, P. (2020, April). What is Trending on Wikipedia? Capturing Trends and Language Biases Across Wikipedia Editions. In Companion Proceedings of the Web Conference 2020 (pp. 794-801).
+[[W3](https://dl.acm.org/doi/pdf/10.1145/3366424.3383567)] Miz, V., Hanna, J., Aspert, N., Ricaud, B., & Vandergheynst, P. (2020, April). What is Trending on Wikipedia? Capturing Trends and Language Biases Across Wikipedia Editions. In Companion Proceedings of the Web Conference 2020 (pp. 794-801).
 
-[SP4] Benjamin Ricaud, Nicolas Aspert, and Volodymyr Miz. Spikyball sampling: Exploring large networks via an inhomogeneous filtered diffusion. Algorithms, 13(11):275, 2020.
+[[SP4](https://www.mdpi.com/1999-4893/13/11/275)] Benjamin Ricaud, Nicolas Aspert, and Volodymyr Miz. Spikyball sampling: Exploring large networks via an inhomogeneous filtered diffusion. Algorithms, 13(11):275, 2020.
 
 ## Graphs in biology
 ![EEG network scheme]({{site.baseurl}}/assets/img/brainfigure.png)
