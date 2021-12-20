@@ -1,6 +1,6 @@
 ## Bio
 
-I am a researcher at EPFL, Lausanne Switzerland. My research is at the intersection between Data Science, Network Science, Machine Learning and Signal Processing. 
+I am an associate professor at UiT, The Arctic University of Norway, Tromsø, Norway, the northernmost university in the world. I was previously researcher at EPFL, Lausanne Switzerland. My research is at the intersection between Data Science, Network Science, Machine Learning and Signal Processing. 
 
 My main research topics are:
  * [Graph signal processing](#graph-signal-processing)
