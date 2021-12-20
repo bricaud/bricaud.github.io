@@ -21,8 +21,8 @@
 theme: jekyll-theme-minimal
 title: Benjamin Ricaud
 logo: /assets/img/Benjaminroundbwsmall.png
-description: Researcher @ EPFL, Switzerland, on the move to University of Tromsø, Norway. Graphs, data science, machine learning. benjamin.ricaud[at]epfl.ch
-email: benjamin.ricaud@epfl.ch
+description: Associate Professor @ UiT, Norway. Graphs, data science, machine learning. benjamin.ricaud[at]uit.no
+email: benjamin.ricaud@uit.no
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: GBR_data
