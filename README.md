@@ -6,6 +6,7 @@ I am involved in several activities around graphs, innovation and teaching:
 * I am the co-director of the [Digital Technology Innovation Lab](https://uit-dtil.github.io/) at UiT, developing innovation and startups in the High North,
 * I am organizing activities around graphs and Machine Learning in the [Northernmost GraphML Group](https://ngmlgroup.github.io/),
 * I am teaching [Image Analysis](https://en.uit.no/utdanning/emner/emne?p_document_id=785508) and [Machine Learning](https://uit.no/utdanning/emner/emne?p_document_id=564810) at UiT.
+* I am co-program chair for the [Northern Light Deep Learning conference](https://www.nldl.org/) that takes place every year in January in Tromsø.
 
 My main research topics are:
  * [Graph signal processing](#graph-signal-processing)
