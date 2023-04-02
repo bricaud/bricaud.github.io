@@ -2,6 +2,11 @@
 
 I am an associate professor at [UiT](https://uit.no/), The Arctic University of Norway, Tromsø, Norway, the northernmost university in the world. I was previously researcher at [EPFL](https://www.epfl.ch/), Lausanne Switzerland. My research is at the intersection between Data Science, Network Science, Machine Learning and Signal Processing. I am a member of [the machine learning group at UiT](https://machine-learning.uit.no/).
 
+I am involved in several activities around graphs, innovation and teaching:
+* I am the co-director of the [Digital Technology Innovation Lab](https://uit-dtil.github.io/) at UiT, developing innovation and startups in the High North,
+* I am organizing activities around graphs and Machine Learning in the [Northernmost GraphML Group](https://ngmlgroup.github.io/),
+* I am teaching [Image Analysis](https://en.uit.no/utdanning/emner/emne?p_document_id=785508) and [Machine Learning](https://uit.no/utdanning/emner/emne?p_document_id=564810) at UiT.
+
 My main research topics are:
  * [Graph signal processing](#graph-signal-processing)
  * [Methods for exploring large graphs (web and social networks)](#exploration-of-large-graphs)
