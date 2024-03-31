@@ -1,12 +1,13 @@
 ## Bio
 
-I am an associate professor at [UiT](https://uit.no/), The Arctic University of Norway, Tromsø, Norway, the northernmost university in the world. I was previously researcher at [EPFL](https://www.epfl.ch/), Lausanne Switzerland. My research is at the intersection between Data Science, Network Science, Machine Learning and Signal Processing. I am a member of [the machine learning group at UiT](https://machine-learning.uit.no/).
+I am associate professor at [UiT](https://uit.no/), The Arctic University of Norway, Tromsø, the northernmost university in the world. I was previously researcher at [EPFL](https://www.epfl.ch/), Lausanne Switzerland. My research is at the intersection between Machine learning, Data Science, Network Science and Signal Processing. I am a member of [the machine learning group at UiT](https://machine-learning.uit.no/).
 
 I am involved in several activities around graphs, innovation and teaching:
 * I am the co-director of the [Digital Technology Innovation Lab](https://uit-dtil.github.io/) at UiT, developing innovation and startups in the High North,
 * I am organizing activities around graphs and Machine Learning in the [Northernmost GraphML Group](https://ngmlgroup.github.io/),
 * I am teaching [Image Analysis](https://en.uit.no/utdanning/emner/emne?p_document_id=785508) and [Machine Learning](https://uit.no/utdanning/emner/emne?p_document_id=564810) at UiT.
 * I am co-program chair for the [Northern Light Deep Learning conference](https://www.nldl.org/) that takes place every year in January in Tromsø.
+* I am supervising one of the ML group outreach activity to inform the general public about AI: we are building open-source [machine learning and AI demos](https://github.com/SFI-Visual-Intelligence/AI-exhibition) for the Science Centre in Tromsø.
 
 My main research topics are:
  * [Graph signal processing](#graph-signal-processing)
@@ -15,6 +16,7 @@ My main research topics are:
  * [Machine learning in audio and explainable AI](#machine-learning-in-audio-and-explainable-ai)
  * [Sparsity in data and models](#sparsity-in-data)
 
+I have recently started a new direction in the fascinating domain of self-supervised learning and [Generative AI](#generative-ai). I am aiming at making a connection between generative AI and graphs machine learning. 
 
 ## Graph signal processing
 ![Graph Signal Processing]({{site.baseurl}}/assets/img/GSPimage.png)
@@ -28,12 +30,13 @@ Since I joined the LTS2 lab at EPFL in 2012, I have been working on graph struct
 
 ## Exploration of Large graphs
 ![Large Twitter graph]({{site.baseurl}}/assets/img/higgs_community_small.jpg)
-With the increasing size of networks, many methods based on linear algebra, in graph signal processing, or machine learning reach their limits. New approaches are needed, involving scalable processes. We have developed several such approaches. One of them is the analysis of abnormal activity (or peak of activity) in the large network of Wikipedia hyperlinks. To this enormous network of articles and hyperlink (millions of nodes), we add the number of visits per hour for each page (open data provided by Wikimedia). Our method is able to focus on graph regions with an abnormal dynamic activity amid the overwhelming amount of data to treat. Besides the demonstration of scalability, we also get interesting insights on the human curiosity and behavior related to important events and news [W1,W2,W3]. A presentation of the findings is available on a blog post of my co-author [V. Miz](https://miz.space). In a second aplication, we establish efficient exploration methods for social networks, emblematic examples of large scale networks. I am involved in a project with a Swiss media consortium [IMI](https://www.media-initiative.ch/) to analyze and track controversies and fake news in social networks. In addition to the size of the network, the limited access to the social platform via an API is a challenge. We have proposed an innovative network exploration principle to unlock the exploration of social networks [SP4].
+With the increasing size of networks, many methods based on linear algebra, in graph signal processing, or machine learning reach their limits. New approaches are needed, involving scalable processes. We have developed several such approaches. One of them is the analysis of abnormal activity (or peak of activity) in the large network of Wikipedia hyperlinks. To this enormous network of articles and hyperlink (millions of nodes), we add the number of visits per hour for each page (open data provided by Wikimedia). Our method is able to focus on graph regions with an abnormal dynamic activity amid the overwhelming amount of data to treat. Besides the demonstration of scalability, we also get interesting insights on the human curiosity and behavior related to important events and news [W1,W2,W3]. A presentation of the findings is available on a blog post of my co-author [V. Miz](https://miz.space). In a second aplication, we establish efficient exploration methods for social networks, emblematic examples of large scale networks. I was involved in a project with the Swiss media consortium [IMI](https://www.media-initiative.ch/) to analyze and track controversies and fake news in social networks. In addition to the size of the network, the limited access to the social platform via an API is a challenge. We have proposed an innovative network exploration principle to unlock the exploration of social networks [SP4]. It is based on a random subsampling of the networks of users and retweets. This subsampling allow a fast and accurate detection of communities and information bubbles. We analysed its efficiency together with journalists in [Car21].
 
 [[W1](https://dl.acm.org/doi/pdf/10.1145/3308558.3313541)] *Miz, V., Ricaud, B., Benzi, K., & Vandergheynst, P. (2019, May). Anomaly detection in the dynamics of web and social networks using associative memory. In The World Wide Web Conference (pp. 1290-1299).*  
 [[W2](https://dl.acm.org/doi/pdf/10.1145/3308560.3316757)] *Aspert, N., Miz, V., Ricaud, B., & Vandergheynst, P. (2019, May). A graph-structured dataset for Wikipedia research. In Companion Proceedings of The 2019 World Wide Web Conference (pp. 1188-1193).*  
 [[W3](https://dl.acm.org/doi/pdf/10.1145/3366424.3383567)] *Miz, V., Hanna, J., Aspert, N., Ricaud, B., & Vandergheynst, P. (2020, April). What is Trending on Wikipedia? Capturing Trends and Language Biases Across Wikipedia Editions. In Companion Proceedings of the Web Conference 2020 (pp. 794-801).*  
 [[SP4](https://www.mdpi.com/1999-4893/13/11/275)] *Benjamin Ricaud, Nicolas Aspert, and Volodymyr Miz. Spikyball sampling: Exploring large networks via an inhomogeneous filtered diffusion. Algorithms, 13(11):275, 2020.*
+[[Car21](https://dx.doi.org/10.34745/numerev_1707)] *Carlino, V., Pignard-Cheynel, N., Loubère, L., Ricaud, B., & Aspert N. (2021). Navigating digital trails on Twitter. A look back at the design of a data mapping system for journalists. Digital Intelligibility Review, 2, 2021.* 
 
 ## Graphs in biology
 ![EEG network scheme]({{site.baseurl}}/assets/img/brainfigure.png)
@@ -56,3 +59,10 @@ Prior to my work on graph signal processing and machine learning, I have worked 
 [[SP1](https://hal.archives-ouvertes.fr/file/index/docid/746976/filename/RicaudTorresani_OC.pdf)] *Benjamin Ricaud and Bruno Torrésani. Refined support and entropic uncertainty inequalities. IEEE Transactions on Information Theory, 59(7):4272–4279, 2013.*  
 [[SP2](https://link.springer.com/content/pdf/10.1007/s10444-013-9323-2.pdf)] *Benjamin Ricaud and Bruno Torrésani. A survey of uncertainty principles and some signal processing applications. Advances in Computational Mathematics, 40(3):629–650, 2014.*  
 [[SP3](https://documents.epfl.ch/users/s/sh/shuman/www/Papers/Conference/Ricaud_et_al_SPIE_2013.pdf)] *Benjamin Ricaud, David I Shuman, and Pierre Vandergheynst. On the sparsity of wavelet coefficients for signals on graphs. In Wavelets and Sparsity XV, volume 8858, page 88581L. International Society for Optics and Photonics, 2013.*
+
+## Generative AI
+
+I have started exploring the possibilities of Generative AI. Two new works have given interesting results. The first is a self-supervised model for microfossil classification [Mar24]. It is very efficient for learning from a few labels. On the application side, it frees geologists from manual counting and classification of microfossils and hence is a great contribution to their field. The second work uses generative AI to denoise spectra from a Raman spectrometer and then uses the latent representation to classify biological vesicles [Jen24]. This is very promising for the domain of nanophysics as well as for the use of more accurate spectrometry data for biology.  
+
+[[Mar24](http://dx.doi.org/10.2139/ssrn.4706163)]  *Martinsen, Iver and Wade, David and Ricaud, Benjamin and Godtliebsen, Fred, The 3-Billion Fossil Question: How to Automate Classification of Microfossils. 2024. Under review. Available at SSRN: https://ssrn.com/abstract=4706163 or http://dx.doi.org/10.2139/ssrn.4706163* 
+[[Jen24](https://www.nature.com/articles/s41598-024-56788-7)] *Jensen, M.N., Guerreiro, E.M., Enciso-Martinez, A. et al. Identification of extracellular vesicles from their Raman spectra via self-supervised learning. Sci Rep 14, 6791 (2024). https://doi.org/10.1038/s41598-024-56788-7 *
