@@ -66,4 +66,4 @@ I have started exploring the possibilities of Generative AI. Two new works have 
 
 [[Mar24](https://doi.org/10.1016/j.aiig.2024.100080)]  *Martinsen, Iver and Wade, David and Ricaud, Benjamin and Godtliebsen, Fred, The 3-Billion Fossil Question: How to Automate Classification of Microfossils, Artificial Intelligence in Geosciences,
 Volume 5, 2024.*  
-[[Jen24](https://www.nature.com/articles/s41598-024-56788-7)] *Jensen, M.N., Guerreiro, E.M., Enciso-Martinez, A. et al. Identification of extracellular vesicles from their Raman spectra via self-supervised learning. Sci Rep 14, 6791 (2024).*  
+[[Jen24](https://www.nature.com/articles/s41598-024-56788-7)] *Jensen M.N., Guerreiro E.M., Enciso-Martinez A., Kruglik, S.G., Otto C., Snir O., Ricaud B., Hellesø O.G., Identification of extracellular vesicles from their Raman spectra via self-supervised learning. Nature Sci Rep 14, 6791 (2024).*  
