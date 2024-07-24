@@ -64,5 +64,6 @@ Prior to my work on graph signal processing and machine learning, I have worked 
 
 I have started exploring the possibilities of Generative AI. Two new works have given interesting results. The first is a self-supervised model for microfossil classification [Mar24]. It is very efficient for learning from a few labels. On the application side, it frees geologists from manual counting and classification of microfossils and hence is a great contribution to their field. The second work uses generative AI to denoise spectra from a Raman spectrometer and then uses the latent representation to classify biological vesicles [Jen24]. This is very promising for the domain of nanophysics as well as for the use of more accurate spectrometry data for biology.  
 
-[[Mar24](http://dx.doi.org/10.2139/ssrn.4706163)]  *Martinsen, Iver and Wade, David and Ricaud, Benjamin and Godtliebsen, Fred, The 3-Billion Fossil Question: How to Automate Classification of Microfossils. 2024. Under review.*  
+[[Mar24](https://doi.org/10.1016/j.aiig.2024.100080)]  *Martinsen, Iver and Wade, David and Ricaud, Benjamin and Godtliebsen, Fred, The 3-Billion Fossil Question: How to Automate Classification of Microfossils, Artificial Intelligence in Geosciences,
+Volume 5, 2024.*  
 [[Jen24](https://www.nature.com/articles/s41598-024-56788-7)] *Jensen, M.N., Guerreiro, E.M., Enciso-Martinez, A. et al. Identification of extracellular vesicles from their Raman spectra via self-supervised learning. Sci Rep 14, 6791 (2024).*  
