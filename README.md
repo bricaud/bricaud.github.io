@@ -21,17 +21,18 @@ A short description of my main research topics:
 ## Machine Learning and AI
 Machine Learning is evolving very fast and there are many interesting and exiting directions at the moment.
 
+![Cogniload]({{site.baseurl}}/assets/img/cogniload.png)
 **Reasoning in Large Language Models.** We have made a benchmark for evaluating the reasoning abilities of Large Language Models [Kai25]. It consists on text puzzles that the model has to solve. Our novelty is that the puzzles are generated automatically, preventing training on them and memorization. In addition, it tests 3 different difficulty dimensions, related to cognitive load theory. It is written in simple text to be sure the models are all able to follow the steps, and focus only on the deduction ability of models.
 
+![TchemGNN]({{site.baseurl}}/assets/img/TchemGNN.png)
 **Graph Machine Learning for molecules.** Molecules can be seen as graphs, with atoms as nodes and chemical bonds as edges. Graph neural networks are very efficient for the classification and prediction of molecule properties. We show that combining a graph approach with *apriori* knowledge from chemistry (using molecular fingerprints) gives the best results for predicting particular molecule properties [Lut25].
 
 **Self-supervised learning for applications.**
 Many applications have data with few or no labels, and standard supervised learning is impossible. We have developed a self-supervised model, what is called now a "foundation model", for microfossil classification [Mar24]. This model frees geologists from manual counting and classification of microfossils and hence is a great contribution to their field. In another project, together with physicists, we have made a self-supervised model to denoise and classify  spectra collected from a Raman spectrometer. The model's latent representation turn out to be very useful for classifying biological vesicles [Jen24].  
 
-[[Kai25]()] *D Kaiser, A Frigessi, A Ramezani-Kebrya, B Ricaud, CogniLoad: A Synthetic Natural Language Reasoning Benchmark With Tunable Length, Intrinsic Difficulty, and Distractor Density, arXiv preprint arXiv:2509.18458, 2025*
-[[Lut25](https://pubs.acs.org/doi/full/10.1021/acsomega.5c07178)] *T Lutchyn, M Mardal, B Ricaud, Efficient learning of molecular properties using Graph Neural Networks enhanced with chemistry knowledge, ACS omega, 2025*
-[[Mar24](https://doi.org/10.1016/j.aiig.2024.100080)]  *Martinsen, Iver and Wade, David and Ricaud, Benjamin and Godtliebsen, Fred, The 3-Billion Fossil Question: How to Automate Classification of Microfossils, Artificial Intelligence in Geosciences,
-Volume 5, 2024.*  
+[[Kai25](https://arxiv.org/abs/2509.18458)] *D Kaiser, A Frigessi, A Ramezani-Kebrya, B Ricaud, CogniLoad: A Synthetic Natural Language Reasoning Benchmark With Tunable Length, Intrinsic Difficulty, and Distractor Density, arXiv preprint arXiv:2509.18458, 2025*
+[[Lut25](https://pubs.acs.org/doi/full/10.1021/acsomega.5c07178)] *T Lutchyn, M Mardal, B Ricaud, Efficient learning of molecular properties using Graph Neural Networks enhanced with chemistry knowledge, ACS omega, 2025* 
+[[Mar24](https://doi.org/10.1016/j.aiig.2024.100080)] *Martinsen, Iver and Wade, David and Ricaud, Benjamin and Godtliebsen, Fred, The 3-Billion Fossil Question: How to Automate Classification of Microfossils, Artificial Intelligence in Geosciences, Volume 5, 2024.*  
 [[Jen24](https://www.nature.com/articles/s41598-024-56788-7)] *Jensen M.N., Guerreiro E.M., Enciso-Martinez A., Kruglik, S.G., Otto C., Snir O., Ricaud B., Hellesø O.G., Identification of extracellular vesicles from their Raman spectra via self-supervised learning. Nature Sci Rep 14, 6791 (2024).*  
 
 
