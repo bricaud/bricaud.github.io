@@ -21,7 +21,7 @@
 theme: jekyll-theme-minimal
 title: Benjamin Ricaud
 logo: /assets/img/Benjaminroundbwsmall.png
-description: Associate Professor @ UiT, Norway. Graphs, data science, machine learning. benjamin.ricaud[at]uit.no
+description: Associate Professor @ UiT, Norway. Machine Learning, Generative AI, Graphs, data science. benjamin.ricaud[at]uit.no
 email: benjamin.ricaud@uit.no
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com

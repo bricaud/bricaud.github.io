@@ -5,7 +5,7 @@ I am associate professor at [UiT](https://uit.no/), The Arctic University of Nor
 A few more details about myself:
 * I am the co-director of the Center of Excellence [Integreat](https://www.integreat.no/) which is the Norwegian Centre for Knowledge-driven Machine Learning,
 * I am co-founder and member of the [Northernmost GraphML Group](https://ngmlgroup.github.io/),
-* I am teaching [Image Analysis](https://en.uit.no/utdanning/emner/emne?p_document_id=785508) and [Machine Learning](https://uit.no/utdanning/emner/emne?p_document_id=564810) at UiT.
+* I am teaching [Image Analysis](https://en.uit.no/utdanning/emner/emne?p_document_id=785508), [Machine Learning](https://uit.no/utdanning/emner/emne?p_document_id=564810) and [Generative AI](https://github.com/uitml/GenerativeAI_course) at UiT.
 * I am program chair for the [Northern Light Deep Learning conference](https://www.nldl.org/) that takes place every year in January in Tromsø,
 * I develop, with my students, some cool outreach activities about AI for kids and the general public: we have made open-source [machine learning and AI demos](https://github.com/SFI-Visual-Intelligence/AI-exhibition) for the Science Centre in Tromsø. Our lastest very fun demo is the [AI Photobooth](https://github.com/uitml/PhotoBooth).
 
