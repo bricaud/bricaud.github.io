@@ -1,26 +1,43 @@
 ## Bio
 
-I am associate professor at [UiT](https://uit.no/), The Arctic University of Norway, Tromsø, the northernmost university in the world. I was previously researcher at [EPFL](https://www.epfl.ch/), Lausanne Switzerland. My research is at the intersection between Machine learning, Data Science, Network Science and Signal Processing. I am a member of [the machine learning group at UiT](https://machine-learning.uit.no/).
+I am associate professor at [UiT](https://uit.no/), The Arctic University of Norway, Tromsø, the northernmost university in the world. I was previously researcher at [EPFL](https://www.epfl.ch/), Lausanne Switzerland. My research is now focused on Machine Learning, but I have been doing research in different fields: Data Science, Network Science, Signal Processing and Physics. I am a member of [the machine learning group at UiT](https://machine-learning.uit.no/).
 
-I am involved in several activities around graphs, innovation and teaching:
-* I am the co-director of the [Digital Technology Innovation Lab](https://uit-dtil.github.io/) at UiT, developing innovation and startups in the High North,
-* I am organizing activities around graphs and Machine Learning in the [Northernmost GraphML Group](https://ngmlgroup.github.io/),
+A few more details about myself:
+* I am the co-director of the Center of Excellence [Integreat](https://www.integreat.no/) which is the Norwegian Centre for Knowledge-driven Machine Learning,
+* I am co-founder and member of the [Northernmost GraphML Group](https://ngmlgroup.github.io/),
 * I am teaching [Image Analysis](https://en.uit.no/utdanning/emner/emne?p_document_id=785508) and [Machine Learning](https://uit.no/utdanning/emner/emne?p_document_id=564810) at UiT.
-* I am co-program chair for the [Northern Light Deep Learning conference](https://www.nldl.org/) that takes place every year in January in Tromsø.
-* I am supervising one of the ML group outreach activity to inform the general public about AI: we are building open-source [machine learning and AI demos](https://github.com/SFI-Visual-Intelligence/AI-exhibition) for the Science Centre in Tromsø.
+* I am program chair for the [Northern Light Deep Learning conference](https://www.nldl.org/) that takes place every year in January in Tromsø,
+* I develop, with my students, some cool outreach activities about AI for kids and the general public: we have made open-source [machine learning and AI demos](https://github.com/SFI-Visual-Intelligence/AI-exhibition) for the Science Centre in Tromsø. Our lastest very fun demo is the [AI Photobooth](https://github.com/uitml/PhotoBooth).
 
-My main research topics are:
+A short description of my main research topics:
+ * [Machine Learning and AI](#machine-learning-and-ai)
  * [Graph signal processing](#graph-signal-processing)
  * [Methods for exploring large graphs (web and social networks)](#exploration-of-large-graphs)
  * [Graphs in biology](#graphs-in-biology)
  * [Machine learning in audio and explainable AI](#machine-learning-in-audio-and-explainable-ai)
  * [Sparsity in data and models](#sparsity-in-data)
 
-I have recently started a new direction in the fascinating domain of self-supervised learning and [Generative AI](#generative-ai). I am aiming at making a connection between generative AI and graphs machine learning. 
+
+## Machine Learning and AI
+Machine Learning is evolving very fast and there are many interesting and exiting directions at the moment.
+
+**Reasoning in Large Language Models.** We have made a benchmark for evaluating the reasoning abilities of Large Language Models [Kai25]. It consists on text puzzles that the model has to solve. Our novelty is that the puzzles are generated automatically, preventing training on them and memorization. In addition, it tests 3 different difficulty dimensions, related to cognitive load theory. It is written in simple text to be sure the models are all able to follow the steps, and focus only on the deduction ability of models.
+
+**Graph Machine Learning for molecules.** Molecules can be seen as graphs, with atoms as nodes and chemical bonds as edges. Graph neural networks are very efficient for the classification and prediction of molecule properties. We show that combining a graph approach with *apriori* knowledge from chemistry (using molecular fingerprints) gives the best results for predicting particular molecule properties [Lut25].
+
+**Self-supervised learning for applications.**
+Many applications have data with few or no labels, and standard supervised learning is impossible. We have developed a self-supervised model, what is called now a "foundation model", for microfossil classification [Mar24]. This model frees geologists from manual counting and classification of microfossils and hence is a great contribution to their field. In another project, together with physicists, we have made a self-supervised model to denoise and classify  spectra collected from a Raman spectrometer. The model's latent representation turn out to be very useful for classifying biological vesicles [Jen24].  
+
+[[Kai25]()] *D Kaiser, A Frigessi, A Ramezani-Kebrya, B Ricaud, CogniLoad: A Synthetic Natural Language Reasoning Benchmark With Tunable Length, Intrinsic Difficulty, and Distractor Density, arXiv preprint arXiv:2509.18458, 2025*
+[[Lut25](https://pubs.acs.org/doi/full/10.1021/acsomega.5c07178)] *T Lutchyn, M Mardal, B Ricaud, Efficient learning of molecular properties using Graph Neural Networks enhanced with chemistry knowledge, ACS omega, 2025*
+[[Mar24](https://doi.org/10.1016/j.aiig.2024.100080)]  *Martinsen, Iver and Wade, David and Ricaud, Benjamin and Godtliebsen, Fred, The 3-Billion Fossil Question: How to Automate Classification of Microfossils, Artificial Intelligence in Geosciences,
+Volume 5, 2024.*  
+[[Jen24](https://www.nature.com/articles/s41598-024-56788-7)] *Jensen M.N., Guerreiro E.M., Enciso-Martinez A., Kruglik, S.G., Otto C., Snir O., Ricaud B., Hellesø O.G., Identification of extracellular vesicles from their Raman spectra via self-supervised learning. Nature Sci Rep 14, 6791 (2024).*  
+
 
 ## Graph signal processing
 ![Graph Signal Processing]({{site.baseurl}}/assets/img/GSPimage.png)
-Since I joined the LTS2 lab at EPFL in 2012, I have been working on graph structured data. The main idea is to design new methods enabling the analysis of phenomena occurring within networks. With the explosion of data, these structures arise in many different fields of application (engineering, biology, physics...). In graph signal processing and graph machine learning,  we distinguish two sources of information we combine together: 1) the graph and 2) the data associated to the graph nodes or edges. The graph is the structure or space and the data are the signal or feature vectors. Our first effort was to show how standard data analysis methods in 1D or 2D could be generalized to this exotic graph space. We showed the generalization of key signal processing methods and concepts to the graph setting such as the Fourier transform, the concept of frequency and sparse representation [GSP1], the windowed Fourier transform [GSP2], dynamic analysis on graphs [GSP3] and the concept of uncertainty [GSP4]. With some co-authors and friends, we wrote a review paper about these methods [GSP5]. 
+Since I joined the LTS2 lab at EPFL in 2012, I have been working on graph structured data. The main idea is to design new methods enabling the analysis of phenomena occurring within networks. With the explosion of data, these structures arise in many different fields of application (engineering, biology, physics...). In graph signal processing and graph machine learning,  we distinguish two sources of information we combine together: 1) the graph and 2) the data associated to the graph nodes or edges. The graph is the structure or space and the data are the signal or feature vectors. Our first effort was to show how standard data analysis methods in 1D or 2D could be generalized to this exotic graph space. We have generalized key signal processing methods and concepts to the graph setting such as the Fourier transform, the concept of frequency and sparse representation [GSP1], the windowed Fourier transform [GSP2], dynamic analysis on graphs [GSP3] and the concept of uncertainty [GSP4]. With some co-authors and friends, we wrote a review paper about these methods [GSP5]. 
 
 [[GSP1](https://documents.epfl.ch/users/s/sh/shuman/www/Papers/Conference/Shuman_et_al_SSP_2012.pdf)] *David I Shuman, Benjamin Ricaud, and Pierre Vandergheynst. A windowed graph fourier transform. In Statistical Signal Processing Workshop (SSP), 2012 IEEE, pages 133–136. Ieee, 2012.*  
 [[GSP2](https://www.sciencedirect.com/science/article/pii/S1063520315000214)] *Shuman, D. I., Ricaud, B., & Vandergheynst, P. (2016). Vertex-frequency analysis on graphs. Applied and Computational Harmonic Analysis, 40(2), 260-291.*  
@@ -54,16 +71,9 @@ From a different perspective, in a collaboration with Logitech, we investigate s
 [[ML3](https://arxiv.org/abs/2010.09453)] *Alexandru Mocanu, Benjamin Ricaud, Milos Cernak, Fast accuracy estimation of deep learning based multi-class musical source separation, Proceedings of the NLDL2022 conference, 2022.*
 
 ## Sparsity in data
-Prior to my work on graph signal processing and machine learning, I have worked on theoretical concepts in signal processing and graph signal processing such as sparsity and sparse signal representations [SP1, SP2, SP3]. These concepts are universal and I believe of high importance in data science. The idea is to find representations of signals or data where the information is encoded in a sparse manner. "Summarizing" data with a smaller number of values is a key to compression as well as a to a clearer extraction, understanding and interpretability of the information within the data.
+Prior to my work on graph signal processing and machine learning, I have worked on theoretical concepts in signal processing and graph signal processing such as sparsity and sparse signal representations [SP1, SP2, SP3]. These concepts are very general and appear in mathematics, physics and data science. The idea is to find representations of signals or data where the information is encoded in a sparse manner. "Summarizing" data with a smaller number of values is a key to compression as well as a to a clearer extraction, understanding and interpretability of the information within the data. This related to my background in Quantum Physics through the uncertainty principle.
 
 [[SP1](https://hal.archives-ouvertes.fr/file/index/docid/746976/filename/RicaudTorresani_OC.pdf)] *Benjamin Ricaud and Bruno Torrésani. Refined support and entropic uncertainty inequalities. IEEE Transactions on Information Theory, 59(7):4272–4279, 2013.*  
 [[SP2](https://link.springer.com/content/pdf/10.1007/s10444-013-9323-2.pdf)] *Benjamin Ricaud and Bruno Torrésani. A survey of uncertainty principles and some signal processing applications. Advances in Computational Mathematics, 40(3):629–650, 2014.*  
 [[SP3](https://documents.epfl.ch/users/s/sh/shuman/www/Papers/Conference/Ricaud_et_al_SPIE_2013.pdf)] *Benjamin Ricaud, David I Shuman, and Pierre Vandergheynst. On the sparsity of wavelet coefficients for signals on graphs. In Wavelets and Sparsity XV, volume 8858, page 88581L. International Society for Optics and Photonics, 2013.*
 
-## Generative AI
-
-I have started exploring the possibilities of Generative AI. Two new works have given interesting results. The first is a self-supervised model for microfossil classification [Mar24]. It is very efficient for learning from a few labels. On the application side, it frees geologists from manual counting and classification of microfossils and hence is a great contribution to their field. The second work uses generative AI to denoise spectra from a Raman spectrometer and then uses the latent representation to classify biological vesicles [Jen24]. This is very promising for the domain of nanophysics as well as for the use of more accurate spectrometry data for biology.  
-
-[[Mar24](https://doi.org/10.1016/j.aiig.2024.100080)]  *Martinsen, Iver and Wade, David and Ricaud, Benjamin and Godtliebsen, Fred, The 3-Billion Fossil Question: How to Automate Classification of Microfossils, Artificial Intelligence in Geosciences,
-Volume 5, 2024.*  
-[[Jen24](https://www.nature.com/articles/s41598-024-56788-7)] *Jensen M.N., Guerreiro E.M., Enciso-Martinez A., Kruglik, S.G., Otto C., Snir O., Ricaud B., Hellesø O.G., Identification of extracellular vesicles from their Raman spectra via self-supervised learning. Nature Sci Rep 14, 6791 (2024).*  
