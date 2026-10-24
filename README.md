@@ -33,11 +33,11 @@ Machine Learning is evolving very fast and there are many interesting and exitin
 **Self-supervised learning for applications.**
 Many applications have data with few or no labels, and standard supervised learning is impossible. We have developed a self-supervised model, a "foundation model", for microfossil classification [Mar24]. This model frees geologists from manual counting and classification of microfossils and hence is a great contribution to their field. In another project, together with physicists, we have made a self-supervised model to denoise and classify spectra collected from a Raman spectrometer. The model's latent representation turn out to be very useful for classifying biological vesicles [Jen24].  
 
-[[Kai26](https://arxiv.org/abs/2602.09805)] *D Kaiser, A Ramezani-Kebrya, A Frigessi, B Ricaud, Beyond Accuracy: Decomposing Reasoning Efficiency in LLM, arxiv:2602.09805, 2026.* 
-[[KaiNeurW25](https://openreview.net/forum?id=mym1D6mIZR)] *D Kaiser, A Ramezani-Kebrya, A Frigessi, B Ricaud, Decomposing Reasoning Efficiency in Large Language Models, Neurips workshop, 2025.* 
-[[KaiICLR26](https://arxiv.org/abs/2509.18458)] *D Kaiser, A Frigessi, A Ramezani-Kebrya, B Ricaud, CogniLoad: A Synthetic Natural Language Reasoning Benchmark With Tunable Length, Intrinsic Difficulty, and Distractor Density, ICLR, 2026.* 
-[[Ric26](https://arxiv.org/abs/2610.24661)] *B Ricaud, A Galushko, Can AI agents make law? Evaluating AI legal relevance and creativity, arxiv:2610.24661, 2026.* 
-[[Lut25](https://pubs.acs.org/doi/full/10.1021/acsomega.5c07178)] *T Lutchyn, M Mardal, B Ricaud, Efficient learning of molecular properties using Graph Neural Networks enhanced with chemistry knowledge, ACS omega, 2025.* 
+[[Kai26](https://arxiv.org/abs/2602.09805)] *D Kaiser, A Ramezani-Kebrya, A Frigessi, B Ricaud, Beyond Accuracy: Decomposing Reasoning Efficiency in LLM, arxiv:2602.09805, 2026.*  
+[[KaiNeurW25](https://openreview.net/forum?id=mym1D6mIZR)] *D Kaiser, A Ramezani-Kebrya, A Frigessi, B Ricaud, Decomposing Reasoning Efficiency in Large Language Models, Neurips workshop, 2025.*  
+[[KaiICLR26](https://arxiv.org/abs/2509.18458)] *D Kaiser, A Frigessi, A Ramezani-Kebrya, B Ricaud, CogniLoad: A Synthetic Natural Language Reasoning Benchmark With Tunable Length, Intrinsic Difficulty, and Distractor Density, ICLR, 2026.*  
+[[Ric26](https://arxiv.org/abs/2610.24661)] *B Ricaud, A Galushko, Can AI agents make law? Evaluating AI legal relevance and creativity, arxiv:2610.24661, 2026.*  
+[[Lut25](https://pubs.acs.org/doi/full/10.1021/acsomega.5c07178)] *T Lutchyn, M Mardal, B Ricaud, Efficient learning of molecular properties using Graph Neural Networks enhanced with chemistry knowledge, ACS omega, 2025.*  
 [[Mar24](https://doi.org/10.1016/j.aiig.2024.100080)] *I Martinsen, D Wade, B Ricaud, F Godtliebsen, The 3-Billion Fossil Question: How to Automate Classification of Microfossils, Artificial Intelligence in Geosciences, Volume 5, 2024.*  
 [[Jen24](https://www.nature.com/articles/s41598-024-56788-7)] *Jensen M.N., Guerreiro E.M., Enciso-Martinez A., Kruglik, S.G., Otto C., Snir O., Ricaud B., Hellesø O.G., Identification of extracellular vesicles from their Raman spectra via self-supervised learning. Nature Sci Rep 14, 6791 (2024).*  
 
