@@ -1,51 +1,68 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Site settings — used by the layouts and by jekyll-seo-tag to build the
+# Open Graph / Twitter card tags that make links look good on social media.
+# This file is NOT reloaded by 'jekyll serve': restart the server after editing.
 
 theme: jekyll-theme-minimal
 title: Benjamin Ricaud
+tagline: Machine Learning, Generative AI, Graphs
 logo: /assets/img/Benjaminroundbwsmall.png
 description: Associate Professor @ UiT, Norway. Machine Learning, Generative AI, Graphs, data science. benjamin.ricaud[at]uit.no
 email: benjamin.ricaud@uit.no
-baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bricaud.github.io"
+baseurl: ""
+lang: en
 twitter_username: GBR_data
-github_username:  bricaud
-#plugins:
-#  - jekyll-feed
+github_username: bricaud
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Default image shown when a page/post is shared and has no `image:` of its own.
+image: /assets/img/bricaud.jpg
+
+# jekyll-seo-tag
+author:
+  name: Benjamin Ricaud
+  twitter: GBR_data
+twitter:
+  username: GBR_data
+  card: summary_large_image
+social:
+  name: Benjamin Ricaud
+  links:
+    - https://twitter.com/GBR_data
+    - https://github.com/bricaud
+    - https://www.linkedin.com/in/benjaminricaud
+    - https://scholar.google.fr/citations?user=muGuSyoAAAAJ
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+feed:
+  path: blog/feed.xml
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /blog/:title/
+  - scope:
+      path: "blog/archive"
+      type: posts
+    values:
+      layout: post
+      archived: true
+      permalink: /blog/archive/:title/
+      sitemap: false
+
+exclude:
+  - CLAUDE.md
+  - BLOG_INSTRUCTIONS.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

@@ -1,0 +1,29 @@
+---
+layout: default
+title: Blog
+description: Posts by Benjamin Ricaud on machine learning, generative AI, AI agents and graphs.
+permalink: /blog/
+---
+{% assign posts = site.posts | where_exp: "p", "p.archived != true" %}
+
+<h1>Blog</h1>
+<p class="blog-intro">Notes on machine learning, generative AI, AI agents and graphs. <a href="{{ '/blog/feed.xml' | relative_url }}">RSS feed</a></p>
+
+{% if posts.size == 0 %}
+<p><em>New posts are coming soon.</em></p>
+{% endif %}
+
+<div class="post-list">
+  {% for post in posts %}
+  <a class="post-card" href="{{ post.url | relative_url }}">
+    {% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% endif %}
+    <div>
+      <h2>{{ post.title }}</h2>
+      <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+      <p>{{ post.description | default: post.excerpt | strip_html | truncatewords: 40 }}</p>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+
+<p class="blog-archive-link"><a href="{{ '/blog/archive/' | relative_url }}">Older posts (2017&ndash;2020)</a></p>

@@ -1,0 +1,18 @@
+---
+layout: default
+title: Blog archive
+description: Older blog posts by Benjamin Ricaud (2017-2020).
+permalink: /blog/archive/
+sitemap: false
+---
+{% assign posts = site.posts | where: "archived", true %}
+
+<p class="post-back"><a href="{{ '/blog/' | relative_url }}">&larr; Back to the blog</a></p>
+<h1>Archive</h1>
+<p>Older posts from my previous blog, kept for reference. Some of them may be out of date.</p>
+
+<ul class="archive-list">
+  {% for post in posts %}
+  <li><small>{{ post.date | date: "%Y-%m-%d" }}</small> <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
